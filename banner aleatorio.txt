@@ -1,22 +1,9 @@
 <script type="text/javascript">
 var imagens = [],
 index = 0;
-imagens[0] = "<a href = 'link 1'><img src='#' alt='Super_Scan'></img></a>";
-imagens[1] = "<a href = 'link 2'><img src='#' alt='Super_Scan'></img></a>";
-imagens[2] = "<a href = 'link 3'><img src='#' alt='Super_Scan'></img></a>";
-imagens[3] = "<a href = 'link 4'><img src='#' alt='Super_Scan'></img></a>";
-imagens[4] = "<a href = 'link 1'><img src='#' alt='Super_Scan'></img></a>";
-imagens[5] = "<a href = 'link 2'><img src='#' alt='Super_Scan'></img></a>";
-imagens[6] = "<a href = 'link 3'><img src='#' alt='Super_Scan'></img></a>";
-imagens[7] = "<a href = 'link 4'><img src='#' alt='Super_Scan'></img></a>";
-imagens[8] = "<a href = 'link 1'><img src='#' alt='Super_Scan'></img></a>";
-imagens[9] = "<a href = 'link 2'><img src='#' alt='Super_Scan'></img></a>";
-imagens[10] = "<a href = 'link 3'><img src='#' alt='Super_Scan'></img></a>";
-imagens[11] = "<a href = 'link 4'><img src='#' alt='Super_Scan'></img></a>";
-imagens[12] = "<a href = 'link 1'><img src='#' alt='Super_Scan'></img></a>";
-imagens[13] = "<a href = 'link 2'><img src='#' alt='Super_Scan'></img></a>";
-imagens[14] = "<a href = 'link 3'><img src='#' alt='Super_Scan'></img></a>";
-imagens[15] = "<a href = 'link 4'><img src='#' alt='Super_Scan'></img></a>";
+imagens[0] = "<a href = 'link 1'><img src='#' alt='imagem1'></img></a>";
+imagens[1] = "<a href = 'link 2'><img src='#' alt='imagem2'></img></a>";
+imagens[2] = "<a href = 'link 3'><img src='#' alt='imagem3'></img></a>";
 index = Math.floor(Math.random() * imagens.length);
 document.write(imagens[index]);
 </script>
